@@ -1,0 +1,1 @@
+# Spring Boot project utilizing Spring Data JPA and Spring Data Rest 
