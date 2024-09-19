@@ -25,7 +25,7 @@ public class DemoSecurityConfig {
         );
         // how to find roles
         jdbcUserDetailsManager.setAuthoritiesByUsernameQuery(
-                "select user_id, roles from roles where user_id=?"
+                "select user_id, role from roles where user_id=?"
         );
 
         return jdbcUserDetailsManager;
